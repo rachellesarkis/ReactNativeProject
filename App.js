@@ -11,17 +11,10 @@ import {
 import Login from './Components/Login';
 import Layout from './Components/Layout';
 
-
 const App = () => {
-  return (
-    <View style={{backgroundColor: "#D3D3D3"}}>
-      <Layout />
-    </View>
-  );
+  return <Layout />;
 };
 
-const styles = StyleSheet.create({
- 
-});
+const styles = StyleSheet.create({});
 
 export default App;
